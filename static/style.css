@@ -1,0 +1,82 @@
+body{
+
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 10;
+    font-style: normal;
+
+}
+
+
+form{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+select{
+    margin-bottom: 2em;
+    width: 40em;
+    height: 4em;
+    font-size: 0.9em;
+   
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+input{
+
+    margin-bottom: 2em;
+    width: 40em;
+    height: 4em;
+    font-size: 0.9em;
+    font-family: "Playwrite HU", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+input:focus, select:focus {
+    outline: none;
+    box-shadow: none;
+}
+#submit-btn{
+
+    border: solid #702d96 0.5em;
+    background: #702d96;
+    color: white;
+    font-weight: 300;
+
+}
+
+#submit-btn:hover{
+
+    border: solid #7e4b9c 0.5em;
+    background: #7e4b9c;
+}
+
+#submit-btn:focus{
+    outline: none;
+    box-shadow: none;
+
+}
+#result{
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+}

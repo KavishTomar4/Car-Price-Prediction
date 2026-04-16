@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+HU:wght@100..400&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 id = "title">Car Price Prediction</h1>
+    <form action = '/predict' method="POST">
+        <input type="text" name="present_price" placeholder="Present Price" />
+        <input type="text" name="kms_driven" placeholder="Distance Driven(Kms)" />
+        <select name="fuel_type" id="fuel" required>
+            <option value="">--Select Fuel Type--</option>
+            <option value="Petrol">Petrol</option>
+            <option value="Diesel">Diesel</option>
+        </select>
+        <input type="text" name="age" placeholder="Age of the car" />
+        <input type="submit" id = "submit-btn"/>
+        </form>
+        <div id = "result">
+            {{prediction}}
+        </div>
+
+</body>
+</html>
