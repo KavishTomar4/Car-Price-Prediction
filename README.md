@@ -30,7 +30,7 @@ A machine learning-based web application that predicts the **selling price of a 
 |----------|------|
 | Petrol   | 0    |
 | Diesel   | 1    |
-| CNG      | 2    |
+
 
 ---
 
