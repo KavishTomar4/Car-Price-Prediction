@@ -1,10 +1,10 @@
-# 🚗 Car Price Prediction Web App
+# Car Price Prediction Web App
 
 A machine learning-based web application that predicts the **selling price of a used car** based on user inputs like present price, kilometers driven, age, and fuel type.
 
 ---
 
-## 📌 Features
+## Features
 
 - Predicts car selling price using **Linear Regression**
 - Simple and interactive **Flask web interface**
@@ -13,7 +13,7 @@ A machine learning-based web application that predicts the **selling price of a 
 
 ---
 
-## 🧠 Machine Learning Model
+## Machine Learning Model
 
 - Algorithm: Linear Regression
 - Features used:
@@ -24,7 +24,7 @@ A machine learning-based web application that predicts the **selling price of a 
 
 ---
 
-## 🔢 Fuel Type Encoding
+## Fuel Type Encoding
 
 | Fuel Type | Value |
 |----------|------|
@@ -34,7 +34,7 @@ A machine learning-based web application that predicts the **selling price of a 
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - Python
 - Flask
@@ -44,5 +44,3 @@ A machine learning-based web application that predicts the **selling price of a 
 - HTML/CSS
 
 ---
-
-## 📁 Project Structure
